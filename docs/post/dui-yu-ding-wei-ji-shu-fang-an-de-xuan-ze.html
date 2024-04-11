@@ -65,12 +65,13 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><h1>目前有四种方案</h1>
+<div class="markdown-body" id="postBody"><p>目前有三种选择</p>
 <h2>UWB定位技术</h2>
 <p>此方案是业内定位精度最高的技术，可以做到厘米级定位，但同时也是最贵的方案。</p>
 <p>如果选择此方案，一个UWB模块低精度的100，高精度的模块300，会是一笔很大的开销。但是会带来极大的精度提升。</p>
 <h2>蓝牙信标技术</h2>
 <p>这是业内的次主流方案，大多小物件的近距离定位用的都是蓝牙信标技术，但是AOA（到达角）,TOF（传播时间）这些对定位精度提升极大的系统结构均为蓝牙5.0之后才加入，主流物联网的ESP32只能通过RSSI和指纹来进行粗略的定位。</p>
+<p>如果选用蓝牙4.0+，可以使用RSSI和三环定位算法，室内误差在10-30cm。</p>
 <p>芯片售价低廉，一片ESP32大概为30元。</p>
 <h2>WIFI RSSI</h2>
 <p>业内公认的精度最差的技术，因为RSSI不是线性衰减，所以计算出来的数据误差极大，只能作为托底方案使用。</p></div>
