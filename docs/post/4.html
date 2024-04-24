@@ -66,7 +66,17 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody"><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/7e1b55b1a863bd3c002a3843f0d5778657c478c42c017e76fe7393f1d22ae009/68747470733a2f2f7332312e617831782e636f6d2f323032342f30342f31322f704658686153732e706e67"><img src="https://camo.githubusercontent.com/7e1b55b1a863bd3c002a3843f0d5778657c478c42c017e76fe7393f1d22ae009/68747470733a2f2f7332312e617831782e636f6d2f323032342f30342f31322f704658686153732e706e67" alt="" data-canonical-src="https://s21.ax1x.com/2024/04/12/pFXhaSs.png" style="max-width: 100%;"></a></p>
-<p>写了一天的算法居然出现了斜着从障碍物中间穿过去的Bug，信心大减。还是等WPIPier一起来重构吧。</p></div>
+<p>写了一天的算法居然出现了斜着从障碍物中间穿过去的Bug，信心大减。还是等WPIPier一起来重构吧。</p>
+<h2>解决方法</h2>
+<p>不使用欧几里得距离，使用麦哈顿距离</p>
+<p>曼哈顿距离是根据在标准坐标系中的点对之间的绝对轴距总和来计算的。也就是说，它模拟了一个人在仅能沿着坐标轴移动的网格化城市（如曼哈顿）中从一个点到另一个点的最短路径。<br>
+假设有两个点A(x1, y1)和B(x2, y2)，那么它们之间的曼哈顿距离可以通过以下公式计算：</p>
+<pre class="notranslate"><code class="notranslate">MD(A, B) = |x1 - x2| + |y1 - y2|
+</code></pre>
+<p>欧几里得距离是两点间的直线距离，也就是我们在几何学中学到的两点之间最短的距离。它是通过勾股定理来计算的。<br>
+对于两个点A(x1, y1)和B(x2, y2)，它们之间的欧几里得距离可以通过以下公式计算：</p>
+<pre class="notranslate"><code class="notranslate">ED(A, B) = √((x2 - x1)² + (y2 - y1)²)
+</code></pre></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
