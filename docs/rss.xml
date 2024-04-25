@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>项目日志</title><link>https://wpipier.cn/</link><description>对进行中和待商议的项目请进行高度关注，bug修复之后及时打上已完成标签。</description><copyright>项目日志</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://s21.ax1x.com/2024/04/10/pFXElHx.png</url><title>avatar</title><link>https://wpipier.cn/</link></image><lastBuildDate>Wed, 24 Apr 2024 23:50:53 +0000</lastBuildDate><managingEditor>项目日志</managingEditor><ttl>60</ttl><webMaster>项目日志</webMaster><item><title>搭建基本框架</title><link>https://wpipier.cn//post/7.html</link><description>预计三个工作日内，进行基本框架的搭建。</description><guid isPermaLink="true">https://wpipier.cn//post/7.html</guid><pubDate>Wed, 24 Apr 2024 23:50:31 +0000</pubDate></item><item><title>进行第一次实验</title><link>https://wpipier.cn//post/6.html</link><description> - [x] 使用Three.js技术实现房间内的视角变换&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>项目日志</title><link>https://wpipier.cn/</link><description>对进行中和待商议的项目请进行高度关注，bug修复之后及时打上已完成标签。</description><copyright>项目日志</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://s21.ax1x.com/2024/04/10/pFXElHx.png</url><title>avatar</title><link>https://wpipier.cn/</link></image><lastBuildDate>Thu, 25 Apr 2024 01:06:07 +0000</lastBuildDate><managingEditor>项目日志</managingEditor><ttl>60</ttl><webMaster>项目日志</webMaster><item><title>搭建基本框架</title><link>https://wpipier.cn//post/7.html</link><description>预计三个工作日内，进行基本框架的搭建。</description><guid isPermaLink="true">https://wpipier.cn//post/7.html</guid><pubDate>Wed, 24 Apr 2024 23:50:31 +0000</pubDate></item><item><title>进行第一次实验</title><link>https://wpipier.cn//post/6.html</link><description> - [x] 使用Three.js技术实现房间内的视角变换&#13;
  - [ ] 进行蓝牙RSSI测距实验&#13;
  - [ ] 决定定位方案。</description><guid isPermaLink="true">https://wpipier.cn//post/6.html</guid><pubDate>Tue, 16 Apr 2024 15:09:24 +0000</pubDate></item><item><title>需要进行线下会议</title><link>https://wpipier.cn//post/5.html</link><description>~~需要确定各个组员间的分工~~&#13;
 &#13;
@@ -13,9 +13,9 @@
 &#13;
 写了一天的算法居然出现了斜着从障碍物中间穿过去的Bug，信心大减。</description><guid isPermaLink="true">https://wpipier.cn//post/4.html</guid><pubDate>Thu, 11 Apr 2024 16:35:29 +0000</pubDate></item><item><title>目前要解决的问题</title><link>https://wpipier.cn//post/3.html</link><description>注意：此列表在不断添加，不要对这个页面打上`已完成`&#13;
 &#13;
- - [ ] 确定底层语言 &#13;
+ - [x] 确定底层语言 &#13;
  - [ ] 确定定位技术的选择&#13;
- - [ ] 确定前端页面的框架&#13;
+ - [x] 确定前端页面的框架&#13;
  - [ ] 确定前端页面展示信息的内容。</description><guid isPermaLink="true">https://wpipier.cn//post/3.html</guid><pubDate>Thu, 11 Apr 2024 06:43:45 +0000</pubDate></item><item><title>对于定位技术方案的选择</title><link>https://wpipier.cn//post/2.html</link><description>目前有以下几种选择&#13;
 &#13;
 ## UWB定位技术&#13;
